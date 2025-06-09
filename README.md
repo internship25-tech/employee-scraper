@@ -3,11 +3,15 @@
 User Story:
 Title: Scraping Employee Data from API
 <br>
+<br>
+
 As a developer,
 I want to scrape employee data from the provided API endpoint (https://api.slingacademy.com/v1/sample-data/files/employees.json),
 so that I can ingest the data into our data warehouse for further analysis.
 <br>
-```Acceptance Criteria:```<br>
+
+```Acceptance Criteria:``` <br>
+ 
 ### Data Retrieval:
 
 The scraper must make a successful HTTP request to the provided URL: https://api.slingacademy.com/v1/sample-data/files/employees.json.
@@ -52,7 +56,8 @@ department           string
 6.Date Formatting: Ensure that all date fields, such as "Hire Date," are in a consistent format (e.g., YYYY-MM-DD).
 
 <br>
-Test Cases:
+
+### Test Cases:
 Test Case 1: Verify JSON File Download
 Test Case 2: Verify JSON File Extraction
 Test Case 3: Validate File Type and Format
