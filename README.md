@@ -1,6 +1,8 @@
 # Employee scraper
 <br>
-User Story:
+
+User Story: <br>
+
 Title: Scraping Employee Data from API
 <br>
 <br>
